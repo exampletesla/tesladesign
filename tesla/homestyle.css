@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+html{
+  background: url(images/home.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header .logo{
+  height: 10rem;
+  width: 20rem;
+}
+header{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:100px;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  padding: 50px;
+  font-size: 29px;
+}
+nav{
+  padding-right: 80px;
+}
+.currenthome{
+color: #F55959;
+}
+a:hover{
+  color: #F55959;
+  font-size: 29px;
+}
+.textwrapper{
+color:#fff;
+padding-left: 60%;
+padding-top: 12%;
+}
+.contact img{
+  width: 32px;
+  height: 32px;
+}
+.wrapper{
+  height: 250px;
+}
+.contact{
+  padding-left: 90%;
+
+}
+.buy{
+  color: #fff;
+}
+.buy:hover{
+  color: #F55959;
+  font-size: 18px;
+}
